@@ -43,10 +43,10 @@ p{
 }
 
 .banner{
-    background-image: url('../img/accos/1.jpg');
+    background-image: url('../img/accos/3.jpg');
     min-height: 55vh;
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     filter: saturate(140%) contrast(110%);
     -webkit-filter: saturate(140%) contrast(110%);
     -moz-filter: saturate(140%) contrast(110%);
@@ -71,6 +71,7 @@ ul > li {
     letter-spacing: 0.05rem;
     
 }
+
 
 
 

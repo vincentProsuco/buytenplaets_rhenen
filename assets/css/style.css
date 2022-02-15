@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(209, 209, 209);
+    background-image: url('../img/leaves.png');
+    font-family: 'Atkinson';
+    
+}
+a{
+    font-family: 'Atkinson';
+    font-weight: bolder;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Cormorant';
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Atkinson';
+    font-weight: 400;
+}
+
+.rhenen-text-dark{
+    color:  #353b47 !important;
+}
+.rhenen-text-geel{
+    color:  #f5df4d !important;
+}
+
+.bg-rhenen-geel{
+    background-color: #f5df4d !important;
+}
+
+.bg-rhenen-dark{
+    background-color: #353b47 !important;
+    color: rgb(231, 231, 231) !important;
+}
+
+.rounded{
+    border-radius: 7px!important;
+    border:0px !important;
+}
+
+.banner{
+    background-image: url('../img/accos/1.jpg');
+    min-height: 65vh;
+    background-size: cover;
+    background-position: center;
+    filter: saturate(140%) contrast(131%);
+    -webkit-filter: saturate(140%) contrast(131%);
+    -moz-filter: saturate(140%) contrast(131%);
+    border-bottom: 5px solid #353b47;
+}
+
+.banner-carousel{
+    margin-top:-40vh;
+    
+}
+
+
+
+
+
+

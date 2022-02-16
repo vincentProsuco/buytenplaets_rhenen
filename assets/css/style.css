@@ -42,18 +42,19 @@ p{
 }
 
 .banner{
-    background-image: url('../img/banner-bg.jpg');
-    min-height: 55vh;
+    background-image: url('../img/banner_bg_3.jpg');
+    min-height: 65vh;
     background-size: cover;
-    background-position: top;
+    background-position: center;
     filter: saturate(120%) contrast(110%);
     -webkit-filter: saturate(120%) contrast(110%);
     -moz-filter: saturate(120%) contrast(110%);
-    border-bottom: 5px solid #353b47;
+  
+    
 }
 
 .banner-carousel{
-    margin-top:-35vh;
+    margin-top:-45vh;
     
 }
 

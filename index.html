@@ -106,30 +106,44 @@
       </div>
       <div id="navhere"></div>
     </div>
-    
+
     <!-- Footer -->
     <div class="container-fluid bg-rhenen-dark shadow py-4">
       <div class="container">
-        
         <div class="col-12 d-flex flex-wrap justify-content-between">
-          
           <div class="my-2 d-flex flex-column">
-            <span  class="my-2">Wijnberg Recreatieontwikkeling B.V.</span>
+            <span class="my-2">Wijnberg Recreatieontwikkeling B.V.</span>
             <span>Vakantiepark de Thijmse Berg</span>
             <span>Nieuwe Veenendaalseweg 229-231</span>
             <span>3911 MJ te Rhenen</span>
             <span>info@buytenplaetsrhenen.nl</span>
           </div>
 
-          <div class="my-2 d-flex flex-md-row flex-sm-column align-items-center flex-wrap">
-            <div><img src="assets/img/van_wijnen_ logo.png" class="mt-4 mx-4 whitelogo" style="width:10rem; height:auto;"></div>
-            <div><img src="assets/img/Thijmse_Berg_logo.png" class="mt-2 mx-4 whitelogo" style="width:10rem; height:auto;"></div>
-            <div><img src="assets/img/logo_wit.png" class="mt-2 mx-4 whitelogo" style="width:10rem; height:auto;"></div>
+          <div
+            class="my-2 d-flex flex-md-row flex-sm-column align-items-center flex-wrap"
+          >
+            <div>
+              <img
+                src="assets/img/van_wijnen_ logo.png"
+                class="mt-4 mx-4 whitelogo"
+                style="width: 8rem; height: auto"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/img/Thijmse_Berg_logo.png"
+                class="mt-2 mx-4 whitelogo"
+                style="width: 8rem; height: auto"
+              />
+            </div>
+            <div>
+              <img
+                src="assets/img/logo_wit.png"
+                class="mt-2 mx-4 whitelogo"
+                style="width: 8rem; height: auto"
+              />
+            </div>
           </div>
-          
-      
-
-        
         </div>
       </div>
     </div>
@@ -140,8 +154,17 @@
           loop: true,
           margin: 10,
           autoplay: true,
-          nav:true,
-          dotsEach:true
+          nav: true,
+          dotsEach: true,
+          responsive: {
+            0: {
+              items: 1,
+              nav:false
+            },
+            600: {
+              items: 2,
+            }
+          },
         });
       });
     </script>

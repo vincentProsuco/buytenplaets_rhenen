@@ -42,13 +42,14 @@ p{
 }
 
 .banner{
-    background-image: url('../img/banner_bg_3.jpg');
+    background-image: url('../img/banner_bg_2.jpg');
     min-height: 65vh;
     background-size: cover;
     background-position: center;
     filter: saturate(120%) contrast(110%);
     -webkit-filter: saturate(120%) contrast(110%);
     -moz-filter: saturate(120%) contrast(110%);
+    /* filter:blur(0.3rem) */
   
     
 }

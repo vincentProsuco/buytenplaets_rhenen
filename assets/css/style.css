@@ -62,13 +62,19 @@ p{
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.21);
 }
 
-ul > li {
+ul {
     list-style: none;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-weight: 400;
-    line-height: 1.3rem;
-    letter-spacing: 0.05rem;
+    padding:0px;
+    margin-left: 0px;
+    float:left;
     
+    
+}
+
+.whitelogo{
+    filter:  brightness(0) invert(1);
 }
 
 

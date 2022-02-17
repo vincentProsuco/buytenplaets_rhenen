@@ -56,9 +56,10 @@ a{
 
 .banner{
     background-image: url('../img/accos/7.jpg');
-    min-height: 65vh;
+    min-height: 55vh;
     background-size: auto;
-    background-position: center; 
+    background-position: bottom; 
+    background-repeat: repeat-x;
 }
 
 .top{
@@ -68,7 +69,6 @@ a{
 
 .banner-carousel{
     margin-top:-45vh;
-    margin-bottom: 4vh; 
     min-height: 35rem;  
     z-index: 1000; 
 }
@@ -106,15 +106,29 @@ h1{
 }
 }
 
-@media screen and (max-width: 640px) {
-    .banner-carousel{
-        min-height:auto;
-        padding-bottom: 5rem;
-    }
+
+.landkaart{
+    display: block;
+    margin-top:-15rem;
+    padding:1.5rem;
 }
 
+.landkaart > img{
+    -webkit-filter: drop-shadow(1px 1px 0 rgb(255, 255, 255))
+                    drop-shadow(-1px -1px 0 rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 0 rgb(255, 255, 255)) 
+            drop-shadow(-1px -1px 0 rgb(255, 255, 255));
+}
 
-
+@media only screen and (max-width: 640px)  {
+    .landkaart {
+        display:block;
+        margin-top: 1.5rem;
+        padding: 1.5rem;
+        
+    }
+    
+}
 
 
 

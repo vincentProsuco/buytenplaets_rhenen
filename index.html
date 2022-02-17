@@ -36,7 +36,7 @@
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
             <h4>Aanmelden</h4>
@@ -51,7 +51,7 @@
             <iframe
               src="https://account.buytenplaetsrhenen.nl/aanmelden/"
               width="100%"
-              height="380"
+              height="550"
               frameborder="0"
               sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-top-navigation"
               allowtransparency="true"
@@ -61,47 +61,39 @@
       </div>
     </div>
 
-    <div class="full-height">
-      <div class="container-fluid banner"></div>
+    <div class="container-fluid banner"></div>
 
-      <div class="container banner-carousel">
-        <div class="row">
-          <div class="col-md-7 col-sm-12">
-            <div style="opacity: 0.95">
-              <div
-                class="bg-rhenen-dark rounded p-4 d-flex align-items-center flex-column"
-              >
-                <img src="assets/img/logo.png" style="width: 275px" />
-                <h1 class="rhenen-text-geel">Unieke investeringskans</h1>
-              </div>
-            </div>
+    <div class="container">
+      <div class="row top">
+        <div class="col-md-5 col-sm-12">
+          <div
+            class="bg-rhenen-dark rounded px-4 py-2 d-flex align-items-center flex-column banner-carousel myShadow"
+          >
+            <img src="assets/img/logo.png" style="width: 340px" />
+            <h1>Unieke investeringskans</h1>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="container-fluid bg-rhenen-geel hero">
-        <div class="container p-5 d-flex align-items-center flex-column">
-          <h2 class="rhenen-text-dark">
-            <b
-              >Op deze pagina vindt u binnenkort meer informatie over dit
-              exclusieve project</b
-            >
-          </h2>
-          <div class="dropdown-divider"></div>
-          <p>
-            Wilt u op de hoogte blijven van de voortgang van dit project en de
-            unieke investeringskansen? Meld u dan nu aan, zodat u als eerste
-            geïnformeerd wordt bij de start van de verkoop.
-          </p>
+    <div class="container-fluid hero">
+      <div class="container p-4 py-5 d-flex align-items-center flex-column">
+        <h2 class="rhenen-text-dark">Realisatie 28 Luxe Vakantievilla’s</h2>
 
-          <a
-            href="#"
-            class="btn btn-lg bg-rhenen-dark animate__animated animate__bounce"
-            data-bs-toggle="modal"
-            data-bs-target="#exampleModal"
-            ><b>Aanmelden</b></a
-          >
-        </div>
+        <p class="mt-2 text-center">
+          In Rhenen, in het hart van Nederland, ontwikkelen we luxe 6, 8 en 12
+          persoons vakantievilla’s. Binnenkort vindt u hier meer informatie over
+          dit exclusieve project. Wilt u op de hoogte blijven van deze
+          ontwikkeling? Meld u dan hieronder aan voor meer informatie.
+        </p>
+
+        <a
+          href="#"
+          class="btn btn-lg bg-rhenen-dark animate__animated animate__bounce"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          ><b>Aanmelden</b></a
+        >
       </div>
     </div>
 
@@ -125,33 +117,34 @@
     <!-- Footer -->
     <div class="container-fluid bg-rhenen-dark shadow py-4">
       <div class="container">
-        <div class="col-12 d-flex flex-wrap justify-content-between">
+        <div
+          class="col-12 d-flex flex-wrap justify-content-between align-items-center"
+        >
           <div class="my-2 d-flex flex-column">
-            <span class="my-2">Wijnberg Recreatieontwikkeling B.V.</span>
-            <span>Vakantiepark de Thijmse Berg</span>
+            <span>De Thijmse Berg</span>
             <span>Nieuwe Veenendaalseweg 229-231</span>
             <span>3911 MJ te Rhenen</span>
             <span>info@buytenplaetsrhenen.nl</span>
           </div>
 
-          <div
-            class="my-2 d-flex flex-md-row flex-sm-column align-items-center flex-wrap"
-          >
-            <div>
-              <img
-                src="assets/img/van_wijnen_ logo.png"
-                class="mt-4 mx-4 whitelogo"
-                style="width: 8rem; height: auto"
-              />
+          <div class="d-flex flex-column align-items-center">
+            <div class="my-2 d-flex flex-md-row flex-sm-column align-items-end">
+              <div>
+                <img
+                  src="assets/img/van_wijnen_ logo.png"
+                  class="mt-4 mx-4 whitelogo"
+                  style="width: 8rem; height: auto"
+                />
+              </div>
+              <div>
+                <img
+                  src="assets/img/Thijmse_Berg_logo.png"
+                  class="mt-2 mx-4 whitelogo"
+                  style="width: 8rem; height: auto"
+                />
+              </div>
             </div>
-            <div>
-              <img
-                src="assets/img/Thijmse_Berg_logo.png"
-                class="mt-2 mx-4 whitelogo"
-                style="width: 8rem; height: auto"
-              />
-            </div>
-            <div></div>
+            <span class="my-4"><b>Wijnberg Recreatieontwikkeling B.V.</b></span>
           </div>
         </div>
       </div>
@@ -161,12 +154,12 @@
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
           loop: true,
-          margin: 10,
+          margin: 6,
           autoplay: true,
           nav: true,
           dotsEach: true,
           slideTransition: "ease-in-out",
-          autoplaySpeed: 3500,
+          autoplaySpeed: 2500,
           responsive: {
             0: {
               items: 1,

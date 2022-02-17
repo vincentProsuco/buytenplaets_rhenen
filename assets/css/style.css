@@ -26,6 +26,12 @@ p{
     font-family: 'Atkinson Hyperlegible', sans-serif;   
     
 }
+a{
+    font-family: 'Atkinson Hyperlegible', sans-serif !important;  
+    color:  rgb(209, 209, 209) !important;
+    font-weight: 200;
+    
+}
 
 .rhenen-text-dark{
     color:  #353b47 !important;
@@ -49,10 +55,10 @@ p{
 }
 
 .banner{
-    background-image: url('../img/banner_bg_3.jpg');
+    background-image: url('../img/accos/7.jpg');
     min-height: 65vh;
-    background-size: cover;
-    background-position: top; 
+    background-size: auto;
+    background-position: center; 
 }
 
 .top{
@@ -70,8 +76,8 @@ p{
 
 
 .myShadow{
-    webkit-box-shadow: 5px 5px 25px 4p-x rgba(0,0,0,0.39); 
-box-shadow: 5px 5px 25px 4px rgba(0,0,0,0.39);
+    webkit-box-shadow: 5px 5px 25px 4p-x rgba(0, 0, 0, 0.171); 
+    box-shadow: 5px 5px 25px 4px rgba(0, 0, 0, 0.171);
 }
 
 ul {

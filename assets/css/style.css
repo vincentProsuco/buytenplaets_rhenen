@@ -2,8 +2,8 @@
 
 body{
     background-color: rgb(209, 209, 209);
-    /* background-image: url('../img/leaves.png'); */
     font-family: 'Cormorant', sans-serif;
+    overflow-x: hidden;
     
 }
 a{
